@@ -9,21 +9,21 @@
 # Title that will be used for the HIT when posted to mturk
 # e.g.,
 #     title = Stroop task
-;title =
+title = Stroop task
 
 # Description that will be used for the HIT when posted to mturk
 # e.g.,
 #     description = Judge the color of a series of words.
-;description =
+description = Judge the color of a series of words.
 
 # Keywords for the HIT on mturk
 # e.g.,
 #     keywords = Perception, Psychology
-;keywords =
+keywords = Perception,Psychology
 
 # How many hours a given HIT will last on mturk before becoming unavailable
 # for new assignments
-;lifetime = 24
+lifetime = 24
 
 # Whether the HIT will be restricted to US-located mturkers
 ;us_only = true
@@ -83,7 +83,7 @@ ad_url_domain = young-dusk-70558.herokuapp.com
 #;database_url = sqlite:///participants.db
 database_url = postgres://thtykzlubvuxet:e7235523f39db13b3f37c40df28c38a7f0507b46c1cd71e93deca3f14c549d7b@ec2-54-167-168-52.compute-1.amazonaws.com:5432/d5f0lo5oa58kqh
 # Name of the database table where participant data will be stored
-;table_name = assignments
+table_name = assignments
 
 ############################# Server Parameters ################################
 [Server Parameters]
