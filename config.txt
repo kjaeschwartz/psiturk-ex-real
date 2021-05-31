@@ -26,7 +26,7 @@ keywords = Perception,Psychology
 lifetime = 24
 
 # Whether the HIT will be restricted to US-located mturkers
-;us_only = true
+us_only = true
 
 # Minimum approval percentage a worker must have to accept the HIT.
 # Note! Mturk defaults a worker's approval percentage to 100% until
@@ -56,7 +56,7 @@ lifetime = 24
 # Server domain name for publicly-accessible route to psiturk server.
 # If running on heroku, set this to your heroku app url --
 # e.g., "ad_url_domain = example-app.herokuapp.com"
-ad_url_domain=young-dusk-70558.herokuapp.com
+ad_url_domain= young-dusk-70558.herokuapp.com
 # Server port for publicly-accessible route to psiturk server
 ;ad_url_port = 443
 
@@ -79,8 +79,8 @@ ad_url_domain=young-dusk-70558.herokuapp.com
 [Database Parameters]
 # Participant data will be stored in this database.
 # If ON_CLOUD=1, then this defaults to env var $DATABASE_URL, if set.
-#;database_url = sqlite:///participants.db
-database_url = postgres://thtykzlubvuxet:e7235523f39db13b3f37c40df28c38a7f0507b46c1cd71e93deca3f14c549d7b@ec2-54-167-168-52.compute-1.amazonaws.com:5432/d5f0lo5oa58kqh
+;database_url = sqlite:///participants.db
+#database_url = postgres://thtykzlubvuxet:e7235523f39db13b3f37c40df28c38a7f0507b46c1cd71e93deca3f14c549d7b@ec2-54-167-168-52.compute-1.amazonaws.com:5432/d5f0lo5oa58kqh
 # Name of the database table where participant data will be stored
 table_name = assignments
 
